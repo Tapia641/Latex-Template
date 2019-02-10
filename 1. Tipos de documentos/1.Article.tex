@@ -1,28 +1,52 @@
-%=================== TIPO DE DOCUMENTOS A OCUPAR ===================%
+%=================== Artículo ===================%
 % article
 % book
 % report
 % letter
 % slides
 \documentclass[12pt,latterpaper]{article}
-\usepackage[utf8]{inputenc}
 
 %============= DECLARANDO USO DE PAQUETES ===============%
-\usepackage [spanish] {babel} %USO DEL IDIOMA ESPAÑOL CON TILDES
-%\usepackage [spanish, english] {babel} %AMBOS
-
+\usepackage[utf8]{inputenc} % Paquete para la codificación.
+\usepackage [spanish] {babel} % Uso del idioma español con tildes.
+%\usepackage [spanish, english] {babel} % Ambos.
 
 %============= DATOS DEL DOCUMENTO ===============%
-\title{Ejemplo de un documento sencillo en Latex}
+\title{Ejemplo de un artículo sencillo en Latex}
 \author{Luis Enrique Hernández Tapia}
-\date{February 2019}
-
-
+\date{10 de Febrero 2019}
+\setlength{\parskip}{10pt} % Espacio entre párrafos 
 
 %============= EMPEZAMOS CON EL DOCUMENTO ===============%
+\renewcommand{\baselinestretch}{1} % Tipo de interlineado [1, 1.5, 2]
 \begin{document}
-\maketitle %COMANDO PARA LA PORTADA
+\maketitle % Comando para la portada
+
 Breve descripción del documento a realizar.
-\section{Introducción}
+
+\section{Identación}
+
+\noindent El mañana degusté un café, alrededor de las 8:00 am, algo fuerte para mis gustos, pero con una cucharada de azúcar me quedó perfecto.\\
+
+Actualmente he perdido la noción del tiempo, pues unos cigarros me han bastado para proponerme a concluir mis trabajos.\\
+
+\noindent Actualmente estoy invirtiendo mi tiempo en aprender cosas que me apasionan, pues la noción de descubrir las nuevas tecnologías me deja atónito.
+
+
+\section{Saltos de línea}
+
+Todo el día, sentados el patio,\\ en un banco estaban los cuatro hijos
+idiotas del matrimonio Mazzini-Ferraz. \newline Tenían la lengua
+entre los labios, los ojos estúpidos, y volvían la cabeza con la boca
+abierta.
+
+\newpage
+
+\par El patio era de tierra, cerrado al oeste por un cerco de ladrillos.
+El banco quedaba paralelo a él, a cinco metros, y allí se mantenían
+\\[.5cm]
+inmóviles, fijos los ojos en los ladrillos.
+Como el sol se ocultaba tras el cerco, al declinar los idiotas tenían
+fiesta.
 
 \end{document}
