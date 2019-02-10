@@ -1,0 +1,26 @@
+## Latex-Template
+>Aquí se almacenan algunas plantillas de Latex para un uso rápido y de fácil manipulación
+
+**¿Qué rayos es Latex?**
+
+Es una herramienta que sirve para editar textos con alta calidad tipográfica. Ayuda a la preparación de textos científicos o que contienen fórmulas matemáticas. Se deriva de la palabra griega texnologia.
+## Editores
+
+**Windows:**
+
+TexMaker [Descargar](http://www.xm1math.net/texmaker/download.html)
+
+**Linux:**
+
+Gummi
+
+```
+$ sudo apt install gummi
+```
+
+**En línea**
+
+Overleaf es un editor de LATEX en línea [Pulsa aquí](https://www.overleaf.com)
+
+Nota: Puedes compartir tus documentos con otras personas y trabajar simultáneamente. ;)
+
