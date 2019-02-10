@@ -7,6 +7,8 @@ Es una herramienta que sirve para editar textos con alta calidad tipográfica. A
 
 ## Editores 💯
 
+A continuación se presentan algunos editores para compilar el código de Latex, pues si bien se escribe en crudo, necesitamos de alguna manera generar el formato en PDF.
+
 **Windows:**
 
 TexMaker [Descargar](http://www.xm1math.net/texmaker/download.html)
