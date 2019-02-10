@@ -1,0 +1,123 @@
+%=================== Artículo ===================%
+% article
+% book
+% report
+% letter
+% slides
+\documentclass[12pt,latterpaper]{article}
+
+%============= DECLARANDO USO DE PAQUETES ===============%
+\usepackage[utf8]{inputenc} % Paquete para la codificación.
+\usepackage [spanish] {babel} % Uso del idioma español con tildes.
+%\usepackage [spanish, english] {babel} % Ambos.
+\usepackage{color} % Usar colores en las letras
+
+%============= DATOS DEL DOCUMENTO ===============%
+\title{Ejemplo de un artículo sencillo en Latex}
+\author{Luis Enrique Hernández Tapia}
+\date{10 de Febrero 2019}
+\setlength{\parskip}{10pt} % Espacio entre párrafos 
+
+%============= EMPEZAMOS CON EL DOCUMENTO ===============%
+\renewcommand{\baselinestretch}{1} % Tipo de interlineado [1, 1.5, 2]
+\begin{document}
+\maketitle % Comando para la portada
+
+Breve descripción del documento a realizar.
+
+\section{Identación}
+
+\noindent El mañana degusté un café, alrededor de las 8:00 am, algo fuerte para mis gustos, pero con una cucharada de azúcar me quedó perfecto.\\
+
+Actualmente he perdido la noción del tiempo, pues unos cigarros me han bastado para proponerme a concluir mis trabajos.\\
+
+\noindent Actualmente estoy invirtiendo mi tiempo en aprender cosas que me apasionan, pues la noción de descubrir las nuevas tecnologías me deja atónito.
+
+
+\section{Saltos de línea}
+
+Todo el día, sentados el patio,\\ en un banco estaban los cuatro hijos
+idiotas del matrimonio Mazzini-Ferraz. \newline Tenían la lengua
+entre los labios, los ojos estúpidos, y volvían la cabeza con la boca
+abierta.
+
+\newpage
+
+\par El patio era de tierra, cerrado al oeste por un cerco de ladrillos.
+El banco quedaba paralelo a él, a cinco metros, y allí se mantenían
+\\[.5cm]
+inmóviles, fijos los ojos en los ladrillos.
+Como el sol se ocultaba tras el cerco, al declinar los idiotas tenían
+fiesta.
+
+
+\section{Espacio entre palabras}
+
+\noindent Todo el día, sentados \hfill en el patio, en un banco \\
+estaban los cuatro hijos \hrulefill idiotas del matrimonio MazziniFerraz.\\
+Tenían la lengua \dotfill entre los labios,
+
+
+\section{Formato de texto}
+
+Todo el día, sentados en el patio, en un banco estaban los cuatro
+hijos \\
+\leftline {idiotas del matrimonio Mazzini-Ferraz. Tenían la lengua
+entre los labios, }\\
+
+\rightline {los ojos estúpidos, y volvían la cabeza con la boca abierta.}\\
+
+\centerline{El patio era de tierra, cerrado al oeste por un cerco de
+ladrillos.}
+
+
+
+\section{Alineación}
+
+\begin {center}
+Texto centrado
+\end {center}
+
+\begin {flushleft}
+Texto alineado a la izquierda
+\end {flushleft}
+
+\begin {flushright}
+Texto alineado a la derecha
+\end {flushright}
+
+
+\section{Formato de letra}
+
+Todo \textbf{el día, } sentados el patio,\\
+\textit{un banco estaban } los cuatro\\
+\textsc{hijos idiotas del} matrimonio MazziniFerraz.\\
+\textsl{Tenían la lengua} entre los labios,\\
+\underline{los ojos } estúpidos,\\
+\underline { \textbf {volvían la cabeza }} con la boca abierta.
+
+\section{Color de letra}
+
+Así lo sintieron \textcolor{blue}{Mazzini y Berta,} y cuando el
+\textcolor{red}{hijo llegó,} a los catorce
+\textcolor{yellow}{meses de matrimonio} , creyeron cumplida \textcolor{cyan}{su felicidad} .
+La criatura \textcolor{magenta}{creció bella } y radiante, \textcolor{green}{hasta que} tuvo año y medio.
+
+\section{Tipo de letra}
+
+\sf Así lo sintieron Mazzini y Berta, y cuando el hijo llegó,
+\rm a los catorce meses de matrimonio, creyeron cumplida su
+\tt felicidad. La criatura creció bella y radiante, hasta que tuvo año
+y medio
+
+
+\section{Tamaño del texto}
+
+\tiny Todo el día, sentados el patio,\\
+\small en un banco estaban los cuatro\\
+\normalsize hijos idiotas del matrimonio Mazzini-Ferraz.\\
+\Large Tenían la lengua entre los labios, los ojos estúpidos,\\
+\huge volvían la cabeza con la boca abierta.
+
+
+\end{document}
