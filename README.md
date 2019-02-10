@@ -18,7 +18,7 @@ Gummi
 $ sudo apt install gummi
 ```
 
-**En línea**
+**En línea:**
 
 Overleaf es un editor de LATEX en línea [Pulsa aquí](https://www.overleaf.com)
 
