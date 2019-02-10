@@ -24,5 +24,5 @@ Overleaf es un editor de LATEX en línea [Pulsa aquí](https://www.overleaf.com)
 
 Nota: Puedes compartir tus documentos con otras personas y trabajar simultáneamente. ;)
 
-##Autores
-**Luis Tapia** [Tapia641](https://github.com/Tapia641)
+## Autores
+**Luis Tapia** ```Autor``` [Tapia641](https://github.com/Tapia641)
