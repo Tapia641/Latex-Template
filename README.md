@@ -5,7 +5,7 @@
 
 Es una herramienta que sirve para editar textos con alta calidad tipográfica. Ayuda a la preparación de textos científicos o que contienen fórmulas matemáticas. Se deriva de la palabra griega texnologia.
 
-## Editores 💯
+## Editores
 
 A continuación se presentan algunos editores para compilar el código de Latex, pues si bien se escribe en crudo, necesitamos de alguna manera generar el formato en PDF.
 
