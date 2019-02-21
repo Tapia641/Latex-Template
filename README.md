@@ -1,5 +1,5 @@
 ## Latex-Template 🤯
->Aquí se almacenan algunas plantillas de Latex para un uso rápido y de fácil manipulación
+>Algunas plantillas de Latex para un uso rápido y de fácil manipulación
 
 **¿Qué es Latex?** 
 
