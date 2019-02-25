@@ -11,6 +11,8 @@ A continuación se presentan algunos editores para compilar el código de Latex,
 
 **Windows:**
 
+Mi favorito TeXstudio [Descargar](https://www.texstudio.org/)
+
 TexMaker [Descargar](http://www.xm1math.net/texmaker/download.html)
 
 **Linux:**
